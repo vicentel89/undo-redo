@@ -1,5 +1,33 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+input {
+  margin: 0 16px 0 4px;
+}
+
+button {
+  margin-left: 8px;
+  margin-top: 16px;
+}
+
+h1,
+h2,
+h3,
+h5,
+p {
+  height: 40px;
+}
+
+.title-history {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 50%;
 }
 
 .App-logo {
